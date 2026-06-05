@@ -12,7 +12,6 @@ const Home = ({ user, onLogout, isDarkMode, toggleTheme }) => {
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
 
-  // Menentukan komponen mana yang aktif di area main content
   const renderContent = () => {
     if (activeMenu === 'dashboard') {
       return <Dashboard />;

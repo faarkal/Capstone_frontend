@@ -87,15 +87,11 @@ const Login = ({ onLoginSuccess, onSwitchToSignUp }) => {
       <h4 className="form-title">with</h4>
 
       <form className="login-form" onSubmit={handleSubmit}>
-        {/* EMAIL */}
 
         <InputField type="email" name="email" placeholder="Email address" icon="mail" value={formData.email} onChange={handleChange} />
 
-        {/* PASSWORD */}
 
         <InputField type="password" name="password" placeholder="Password" icon="lock" value={formData.password} onChange={handleChange} />
-
-        {/* ERROR */}
 
         {error && <p className="error-msg">{error}</p>}
 
