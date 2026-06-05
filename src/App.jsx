@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import SignUp from './pages/SignUp';
+import SignUp from './pages/Signup';
 
 const App = () => {
   const [user, setUser] = useState(null);
